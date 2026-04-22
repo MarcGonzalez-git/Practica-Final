@@ -36,21 +36,21 @@ L’aplicació ha d’estar composta per **3 pàgines HTML** amb les funcionalit
 
 ## Organització del projecte:
 PRACTICA_FINAL
-    > css
-        > style.css
-    > dades
-        > activitats_001.json
-        > activitats_002.json
-    > js
-        > categories.js
-        > form-tasca.js
-        > grafics.js
-        > index.js
-        > models.js
-        > storage.js
-    > categories.html
-    > crear-tasca.html
-    > index.html
+├── css  
+│   └── style.css  
+├── dades  
+│   ├── activitats_001.json  
+│   └── activitats_002.json  
+├── js  
+│   ├── categories.js  
+│   ├── form-tasca.js  
+│   ├── grafics.js  
+│   ├── index.js  
+│   ├── models.js  
+│   └── storage.js  
+├── categories.html  
+├── crear-tasca.html  
+└── index.html 
 
 ## Rúbrica: 
 | Criteri                                     | Punts| HTML (20%) | CSS (20%) | JS (60%) |
