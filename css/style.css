@@ -46,6 +46,34 @@ body {
     justify-content: space-between;
 }
 
+/* Botó Crear Nova Tasca */
+.boto-crear {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boto-crear:hover {
+    background-color: #2563eb;
+}
+
+/* Botó pujar */
+.boto-pujar {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boto-pujar:hover {
+    background-color: #2563eb;
+}
+
 /* apartats */
 .apartat {
     margin-top: 30px;
