@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="Crear Tasca">
+	    <meta name="author" content="">
+
+        <link rel="stylesheet" href="css/style.css">
+	    <link rel="apple-touch-icon" href="">
+	    <link rel="icon" href="" type="">
+    </head>
+
+    <body>
+        <div class="menu">
+            <h2>Menú</h2>
+            <button onclick="irPagina('index.html')">Llistat d'Activitats</button>
+            <button onclick="irPagina('crear-tasca.html')">Crear Tasca</button>
+            <button onclick="irPagina('categories.html')">Gestió de Categories</button>
+        </div>
+
+        <div class="contingut-crear-tasca">
+            <div class="formulari-contenidor">
+                <h1>Crear Nova Tasca</h1>
+
+                <form id="formulari-nova-tasca">
+                    
+                    <label>Títol:</label>
+                    <input type="text" id="titol" required>
+
+                    <label>Descripció:</label>
+                    <textarea id="descripcio" required></textarea>
+
+                    <label>Data:</label>
+                    <input type="date" id="data" required>
+
+                    <label>Categoria:</label>
+                    <select id="categoria">
+                        <option value=""></option>
+                    </select>
+
+                    <label>Prioritat:</label>
+                    <select id="prioritat" required>
+                        <option value="baixa">Baixa</option>
+                        <option value="mitjana">Mitjana</option>
+                        <option value="alta">Alta</option>
+                    </select>
+
+                    <button type="submit" class="boto-crear">Crear Tasca</button>
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
