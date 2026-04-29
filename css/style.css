@@ -13,6 +13,10 @@ body {
     gap: 15px;
 }
 
+.menu h1 {
+    color: white;
+}
+
 .menu button {
     background-color: #3b82f6;
     border: none;
