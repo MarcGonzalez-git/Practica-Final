@@ -40,6 +40,12 @@ body {
     border-radius: 10px;
 }
 
+/* accions */
+.accions {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* apartats */
 .apartat {
     margin-top: 30px;
