@@ -47,8 +47,7 @@ body {
 }
 
 .header h1 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 /* accions */
@@ -79,7 +78,7 @@ body {
 
 .importar input {
     padding: 10px;
-    border: 1px;
+    border: 1px solid gray;
     border-radius: 5px;
 }
 
@@ -103,3 +102,61 @@ body {
 }
 
 /* CREAR-TASCA.HTML */
+
+/* contingut */
+.contingut-crear-tasca {
+    flex: 1;
+    padding: 20px;
+}
+
+/* formulari-contenidor */
+.formulari-contenidor {
+    background-color: #f3f4f6;
+    padding: 30px;
+    border-radius: 10px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.formulari-contenidor h1 {
+    text-align: center;
+}
+
+.formulari-contenidor button {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Botó Crear Tasca */
+.boto-crear-tasca {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Formulari per Crear Nova Tasca */
+#formulari-nova-tasca {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Camps del formulari */
+#formulari-nova-tasca input {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#formulari-nova-tasca textarea {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#formulari-nova-tasca select {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
