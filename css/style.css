@@ -40,6 +40,11 @@ body {
     border-radius: 10px;
 }
 
+.header h1 {
+    display: flex;
+    justify-content: center;
+}
+
 /* accions */
 .accions {
     display: flex;
