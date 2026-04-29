@@ -1,3 +1,5 @@
+/* INDEX.HTML */
+
 body {
     margin: 0;
     display: flex;
@@ -32,7 +34,7 @@ body {
     background-color: #2563eb;
 }
 
-.contingut {
+.contingut-index {
     flex: 1;
     padding: 20px;
 }
@@ -99,3 +101,5 @@ body {
 .apartat {
     margin-top: 30px;
 }
+
+/* CREAR-TASCA.HTML */
