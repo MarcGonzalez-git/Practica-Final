@@ -60,6 +60,18 @@ body {
     background-color: #2563eb;
 }
 
+/* importar */
+.importar {
+    display: flex;
+    gap: 10px;
+}
+
+.importar input {
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+}
+
 /* Botó pujar */
 .boto-pujar {
     background-color: #3b82f6;
